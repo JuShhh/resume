@@ -8,87 +8,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keyword" content="julie, cv, resume">
     <meta name="description" content="Это сайт - резюме Юлия Шапарева">
-
     <title> Julie Shapareva </title>
 
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    
-<h1> Юлия Шапарева </h1>
 
-    <img src="img/me.jpg" width=200 alt="I was here">
+    <div class="container">
 
-<p> Я стундентка 5 курса ГУМРФ им. адмирала С.О.Макарова и <strong> счастливая мать </strong> кота Тимоши </p>
-    
-<p> Я люблю <em> отдых на природе, секс и мужа Мишу </em>, который меня во всё это втянул </p>
+        <div class="info">
 
-<h3> Список социальных сетей: </h3>
+            <div class="avatar"> <img src="img/me3.jpg"  alt="I was here"> </div>
 
-    <a href="https://vk.com/jushhh" target="_blank"> VK </a>
+            <div class="info-text">
 
-<h2> Мои хобби </h2>
+                <h1> Юлия Шапарева </h1>
 
-<ol>    
-    <li> Танцы </li>
-    <li> Путешествия </li>
-    <li> Мотокросс </li>
-</ol>
+                <p> Я стундентка 5 курса ГУМРФ им. адмирала С.О.Макарова, учусь на экономиста, но мечтаю стать <em>
+                        frontend-разработчицей </em> </p>
 
-<h2> Опыт работы </h2>
+                <p> Люблю отдых на природе, беседы с интересными людьми, <strong> кота Тимошу </strong> и <strong> мужа
+                        Мишу </strong></p>
 
-<table border="1">
-<thead>
-    <tr>
-        <th> Название </th>
-        <th> Должность </th>
-        <th> Год </th>
-     </tr>
-</thead>
+                <div class="networks">
 
-<tbody>
-    <tr>
-        <td> ООО "ЦентрГрупп" </td>
-        <td> Помощник бухгалтера </td>
-        <td> июль 2019 - июль 2020  </td>
-    </tr>
-    <tr>
-        <td> ООО ОП "Столяр" </td>
-        <td> Оператор в сопровождении отдела продаж </td>
-        <td> июль 2020 - ноябрь 2020 </td>
-    </tr>
-    <tr>
-        <td> ООО "Варус" </td>
-        <td> Оператор по первичному учету </td>
-        <td> декабрь 2020 - сейчас </td>
-    </tr>
-</tbody>
-</table>
+                    <h2> Список социальных сетей: </h2>
 
-<h2> Связаться со мной </h2>
+                    <a href="https://vk.com/jushhh" target="_blank" class="href"> VK | </a>
+                    <a href="https://t.me/shaparevaju" target="_blank" class="href"> Telegram </a>
+                </div>
+            </div>
+        </div>
 
-    <form>
-    
-<div>
-    <label for="text"> Ваше имя:</label>
-    <input type="text" id="text" placeholder="Введите имя">
-</div>
+        <div class="hobby">
 
- <div>
-    <label for="email"> Ваше имя:</label>
-    <input type="email" id="email" placeholder="Введите email">
-</div>
+            <h2> Мои хобби </h2>
 
-<div>
-    <label for="message"> Ваше сообщение: </label>
-    <br>
-    <textarea id="message" cols="50" rows="5" placeholder="Введите сообщение..."></textarea>
+            <ol class="list">
+                <li> Танцы </li>
+                <li> Путешествия </li>
+                <li> Мотокросс </li>
+            </ol>
+        </div>
 
-    <br>
+        <div class="experience">
 
-    <button type="submit"> Отправить! </button>
+            <h2> Опыт работы </h2>
+
+            <table border="1" class="table">
+                <thead>
+                    <tr>
+                        <th> Название </th>
+                        <th> Должность </th>
+                        <th> Год </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td> ООО "ЦентрГрупп" </td>
+                        <td> Помощник бухгалтера </td>
+                        <td> июль 2019 - июль 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> ООО ОП "Столяр" </td>
+                        <td> Оператор в сопровождении отдела продаж </td>
+                        <td> июль 2020 - ноябрь 2020 </td>
+                    </tr>
+                    <tr>
+                        <td> ООО "Варус" </td>
+                        <td> Оператор по первичному учету </td>
+                        <td> декабрь 2020 - сейчас </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="courses">
+
+            <h2> Мои курсы </h2>
+
+            <ul class="link-list">
+                <li>
+                    <a href="https://vladilen.ru/teach/control/stream/view/id/560546100" class="href" target="_blank">
+                        Изучение основ HTML & CSS</a>
+                </li>
+                <li>
+                    <a href="https://vladilen.ru/teach/control" class="href" target="_blank">
+                        Все курсы</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <form class="form">
+
+            <h2> Связаться со мной </h2>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="text"> Ваше имя:</label>
+                    <input type="text" id="text" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email"> Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message"> Ваше сообщение: </label>
+                <textarea id="message" cols="50" rows="5" placeholder="Введите сообщение..."></textarea>
+
+            </div>
+            <button type="submit" class="btn"> Отправить! </button>
+    </div>
     </form>
-
+    </div>
 </body>
 
 </html>
