@@ -25,7 +25,7 @@ body {
   display: flex;
 }
 
-@media (max-width: 697px) {
+@media (max-width: 698px) {
   .info {
     display: block;
     text-align: center;
